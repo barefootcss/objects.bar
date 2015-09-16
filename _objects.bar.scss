@@ -1,0 +1,40 @@
+// 
+// Declarations  
+// ========================================================================== 
+
+// 
+// Defaults:
+// 
+
+$bare-bar-background:          #fff !default;
+$bare-bar-color:               #ccc !default;
+$bare-bar-border-width: 			  1px !default;
+$bare-bar-border-style: 			solid !default;
+$bare-bar-border-color: 			 #ccc !default;
+
+/* 
+   #bar
+   ========================================================================== */
+
+/**
+ * The bar object is used to create progress bars. 
+ *
+ * <div class="o-bar">
+ *
+ *     <div class="o-bar__value u-w-1-2"></div>
+ *
+ * </div>
+ */
+
+.o-bar {
+    display: block;
+    height: bareRem($bare-sp-m);
+    background-color: $bare-bar-background;
+    border: $bare-bar-border-width $bare-bar-border-style $bare-bar-border-color; 
+}
+    
+    .o-bar__value {
+      display: block;
+      height: 100%;
+      background-color: $bare-bar-color;
+  }  
