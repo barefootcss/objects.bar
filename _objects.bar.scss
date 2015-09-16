@@ -13,7 +13,7 @@ $bare-bar-border-style: 			solid !default;
 $bare-bar-border-color: 			 #ccc !default;
 
 // 
-// Features:
+// Options:
 // 
 
 $bare-bar--xs:                   	true !default;
@@ -36,16 +36,16 @@ $bare-bar--xl:                   	true !default;
  */
 
 .o-bar {
-    	display: block;
-    	height: bareRem($bare-sp-m);
-    	background-color: $bare-bar-background;
-    	border: $bare-bar-border-width $bare-bar-border-style $bare-bar-border-color; 
+    display: block;
+    height: bareRem($bare-sp-m);
+    background-color: $bare-bar-background;
+    border: $bare-bar-border-width $bare-bar-border-style $bare-bar-border-color; 
     
-	.o-bar__value {
-		display: block;
-		height: 100%;
-		background-color: $bare-bar-color;
-	}  
+    .o-bar__value {
+      display: block;
+      height: 100%;
+      background-color: $bare-bar-color;
+  	}  
 }
 
 // 
@@ -57,7 +57,7 @@ $bare-bar--xl:                   	true !default;
 	.o-bar--xs {
 		height: bareRem($bare-sp-xs);
 	}
-
+	
 }
 
 
@@ -72,6 +72,7 @@ $bare-bar--xl:                   	true !default;
 	}
 	
 }
+
 
 // 
 // #bar--l
