@@ -1,6 +1,6 @@
 #Bar Object
 
-The `bar` object is used to create progress bars. Use the widths utility class to specify the value.
+The `bar` object is used to create progress bars.
 
 	<div class="o-bar">
 		
