@@ -41,12 +41,12 @@ $bare-bar--xl:                   	true !default;
     background-color: $bare-bar-background;
     border: $bare-bar-border-width $bare-bar-border-style $bare-bar-border-color; 
 }
-    
-    .o-bar__value {
-      display: block;
-      height: 100%;
-      background-color: $bare-bar-color;
-  	}  
+
+	.o-bar__value {
+		display: block;
+		height: 100%;
+		background-color: $bare-bar-color;
+	}  
 
 
 // 
@@ -58,7 +58,7 @@ $bare-bar--xl:                   	true !default;
 	.o-bar--xs {
 		height: bareRem($bare-sp-xs);
 	}
-	
+
 }
 
 
