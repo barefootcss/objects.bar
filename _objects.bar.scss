@@ -6,11 +6,20 @@
 // Defaults:
 // 
 
-$bare-bar-background:          #fff !default;
-$bare-bar-color:               #ccc !default;
+$bare-bar-background:          		 #fff !default;
+$bare-bar-color:               		 #ccc !default;
 $bare-bar-border-width: 			  1px !default;
 $bare-bar-border-style: 			solid !default;
 $bare-bar-border-color: 			 #ccc !default;
+
+// 
+// Options:
+// 
+
+$bare-bar--xs:                   	true !default;
+$bare-bar--s:                   	true !default;
+$bare-bar--l:                   	true !default;
+$bare-bar--xl:                   	true !default;
 
 /* 
    #bar
@@ -37,4 +46,56 @@ $bare-bar-border-color: 			 #ccc !default;
       display: block;
       height: 100%;
       background-color: $bare-bar-color;
-  }  
+  	}  
+
+
+// 
+// #bar--xs
+// ========================================================================== 
+
+@if ($bare-bar--xs == true) {
+
+	.o-bar--xs {
+		height: bareRem($bare-sp-xs);
+	}
+	
+}
+
+
+// 
+// #bar--s
+// ========================================================================== 
+
+@if ($bare-bar--s == true) {
+
+	.o-bar--xs {
+		height: bareRem($bare-sp-s);
+	}
+	
+}
+
+
+// 
+// #bar--l
+// ========================================================================== 
+
+@if ($bare-bar--l == true) {
+
+	.o-bar--xs {
+		height: bareRem($bare-sp-l);
+	}
+	
+}
+
+
+// 
+// #bar--xl
+// ========================================================================== 
+
+@if ($bare-bar--xl == true) {
+
+	.o-bar--xs {
+		height: bareRem($bare-sp-xl);
+	}
+	
+}
